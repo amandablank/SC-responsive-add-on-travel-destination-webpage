@@ -87,3 +87,14 @@ header a {
     letter-spacing: 3px;
   }
 }
+
+footer {
+  color: rgba(22, 16, 16, 0.8);
+  background-image: linear-gradient(
+      rgba(236, 233, 247, 0.45),
+      rgba(236, 233, 247, 0.45)
+    ),
+    url("../images/img-8.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
