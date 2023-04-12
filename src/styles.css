@@ -88,13 +88,68 @@ header a {
   }
 }
 
+section {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
 footer {
-  color: rgba(22, 16, 16, 0.8);
+  color: rgba(29, 21, 21, 0.8);
   background-image: linear-gradient(
-      rgba(236, 233, 247, 0.45),
-      rgba(236, 233, 247, 0.45)
+      rgba(236, 233, 247, 0.7),
+      rgba(236, 233, 247, 0.7)
     ),
     url("../images/img-8.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 40px 0;
+}
+
+footer h3 {
+  font-family: "Gwendolyn", cursive;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.8px;
+}
+
+footer p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+}
+
+footer li {
+  list-style: none;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer a {
+  color: rgba(61, 60, 60, 0.8);
+  text-decoration: underline;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer .venice-info a:hover {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(29, 26, 26, 0.8);
+}
+
+footer a:hover {
+  color: white;
 }
