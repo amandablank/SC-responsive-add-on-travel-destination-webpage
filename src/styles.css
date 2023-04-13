@@ -82,6 +82,22 @@ body {
     font-size: 34px;
     font-family: "Gwendolyn", cursive;
   }
+
+  .responsive-img-no-display {
+    display: none;
+  }
+
+  .responsive-map-no-display {
+    display: none;
+  }
+
+  section.responsive-no-section {
+    display: none;
+  }
+
+  .terciary-section {
+    padding-top: 10px;
+  }
 }
 
 header {
