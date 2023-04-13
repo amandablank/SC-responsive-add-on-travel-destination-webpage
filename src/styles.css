@@ -91,7 +91,7 @@ header a {
 section {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 .grid {
@@ -189,10 +189,10 @@ main p {
 }
 
 .main-section-img {
-  width: 100%;
+  max-width: 100%;
   display: block;
-  filter: sepia(70%);
-  opacity: 60%;
+  filter: sepia(80%);
+  border: 18px double rgba(50, 51, 37, 0.3);
 }
 
 .venice-info {
