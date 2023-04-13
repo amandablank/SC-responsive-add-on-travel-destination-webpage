@@ -51,8 +51,18 @@ body {
     grid-gap: 34px;
   }
 
-  .embed {
-    aspect-ratio: 21 /9;
+  .grid.grid-1-column {
+    grid-template-columns: 1fr;
+    grid-gap: 34px;
+  }
+
+  .grid.grid-1-column.embed {
+    aspect-ratio: 16/8;
+  }
+
+  .grid.grid-3-columns-first-narrow {
+    grid-template-columns: 1fr;
+    grid-gap: 34px;
   }
 }
 
